@@ -3,6 +3,7 @@
 This module covers the fundamental concepts and advanced methodologies of machine learning for imaging and relates those to real-world problems in computer vision and medical image analysis. You will experience different approaches to machine learning including supervised and unsupervised techniques with an emphasis on deep learning methods. Applications include image classification, semantic segmentation, object detection and localisation, and registration. A key objective is to equip you with the skills needed to work in, and conduct research into, image computing and applied machine learning.
 
 # Coursework
+Predicting the age of a patient from their brain MRI scan can have diagnostic value for a number of diseases that may cause structural changes and potential damage to the brain. A discrepancy between the predicted age and the real, chronological age of a patient might indicate the presence of disease. This requires an accurate predictor of brain age which may be learned from a set of healthy reference subjects, given their brain MRI data and their actual age. The objective for the coursework is to implement two supervised learning approaches for age regression from brain MRI.
 
 # Notes 
 
