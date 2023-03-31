@@ -1,0 +1,31 @@
+### Image Segmentation 
+- Dense classification for each pixel level 
+- Helps with:
+	- Detailed analysis of the image 
+	- Semantic understanding of the image 
+	- Label at the end of the task 
+
+#### Semantic segmentation
+- In semantic segmentation, a segmented region is also assigned a semantic meaning![[Screenshot 2023-02-03 at 17.09.43.png]]
+- Image segmentation is useful for: 
+	- conducting quantitative analyses, e.g. measuring the volume of the ventricular cavity. 
+	- determining the precise location and extent of an organ or a certain type of tissue, e.g. a tumour, for treatment such as radiation therapy.
+	- creating 3D models used for simulation, e.g. generating a model of an abdominal aortic aneurysm for simulating stress/strain distributions.
+- Challenges for Image Segmentation:
+	- There are several effects in imaging that may hamper the application of segmentation algorithms 
+		- Noise
+		- Partial volume effects 
+			- Due to the coarse sampling (red dots) the resulting image shows partial volume effects at the boundary of the white “organ”
+			- Both tissue types (black and white) contribute to the intensity value of the generated image (right) due to the relatively large influence area of each pixel (gray square in left image)![[Screenshot 2023-02-03 at 17.13.45.png]]
+		- Intensity inhomogeneities
+			- Seen a lot in MRI scans, varying contrasts and differences across the image plane 
+		- Anisotropic resolution
+			- Almost all 3D imaging modalities such as CT and MRI suffer from this problem, difference to move across lose of resolution but when you change dimension fall in resolution![[Screenshot 2023-02-03 at 17.17.58.png]]
+			- We have anisotropic data - where we have more data in one dimension, we aim for isotropic resolution
+		- Imaging artefacts
+			- Noise caused by objects within the object such as:![[Screenshot 2023-02-03 at 17.19.16.png]]
+		- Limited contrast
+			- Different tissues can have similar physical properties and similar intensity values so hard to define the boundary between two objects. HUGE PROBLEM. 
+			- Purely intensity-based algorithms are prone to failure
+		- Morphological variability
+			- Morphological variability makes it hard to incorporate meaningful prior information or useful shape models
