@@ -4,7 +4,10 @@ This module covers the fundamental concepts and advanced methodologies of machin
 
 # Coursework
 
-# Notes
+# Notes 
+
+Note: Pull repo and use with a obsidain to see notes. 
+
 | Week | Topics                                                  | Notes                                                                         | Lecture Notes                                   | Papers                                                                              |
 | ---- | ------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------- | ----------------------------------------------------------------------------------- |
 | 2    | Introduction to Imaging                                 | [[Week 2]]                                                                    | [[Week 2 - Introduction to ML for Imaging.pdf]] | [[Week 2 - LeCun, Bengio, Hinton. 2015. Deep learning. Nature.pdf]]                 |
